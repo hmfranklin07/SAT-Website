@@ -6,8 +6,9 @@
     <title>Hannah Franklin — SAT Tutoring</title>
     <meta
       name="description"
-      content="Personalized SAT tutoring for math, reading, or both. Current Princeton student. Flexible rates and multi-week packages."
+      content="Personalized SAT tutoring for math, reading, or both. Current Princeton student. Clear rates and a structured path to a better score."
     />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,13 +20,23 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header" data-reveal>
-      <a class="logo" href="#top">Hannah Franklin</a>
+    <header class="site-header">
+      <a class="logo" href="index.html" aria-current="page">
+        <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="12" fill="currentColor" />
+          <path
+            d="M18 44V20h10.2c5.4 0 8.8 2.9 8.8 7.3 0 2.8-1.4 5-3.8 6.2L42 44h-7.4l-7.6-9.4H24.8V44H18zm6.8-15.2h3.2c2.3 0 3.7-1.1 3.7-3s-1.4-2.9-3.6-2.9h-3.3v5.9z"
+            fill="#e9eef2"
+          />
+          <circle cx="48" cy="18" r="5" fill="#e85d4c" />
+        </svg>
+        Hannah Franklin
+      </a>
       <nav class="nav" aria-label="Primary">
-        <a href="#services">Services</a>
-        <a href="#rates">Rates</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="nav-cta">Contact</a>
+        <a href="about.html">About</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="tutoring.html">Private Tutoring</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
       </nav>
       <button
         class="nav-toggle"
@@ -40,14 +51,14 @@
     </header>
 
     <div class="mobile-nav" id="mobile-nav" hidden>
-      <a href="#services">Services</a>
-      <a href="#rates">Rates</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="about.html">About</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="tutoring.html">Private Tutoring</a>
+      <a href="contact.html">Contact</a>
     </div>
 
     <main id="main">
-      <section class="hero" id="top">
+      <section class="hero">
         <div class="hero-media" aria-hidden="true">
           <img
             src="https://images.unsplash.com/photo-14565130808-9154613e356b?auto=format&fit=crop&w=2000&q=80"
@@ -61,138 +72,62 @@
           <p class="brand-mark" data-reveal>Hannah Franklin</p>
           <h1 data-reveal data-delay="1">SAT Tutoring</h1>
           <p class="hero-lede" data-reveal data-delay="2">
-            Personalized lessons for math, reading, or both—built around how you
-            learn.
+            Personalized one-on-one prep for math, reading, or both—built around
+            your goals, timeline, and how you learn.
           </p>
           <div class="hero-actions" data-reveal data-delay="3">
-            <a class="btn btn-primary" href="#contact">Book a session</a>
-            <a class="btn btn-ghost" href="#rates">See rates</a>
+            <a class="btn btn-primary" href="contact.html">Get in touch</a>
+            <a class="btn btn-ghost" href="tutoring.html">See rates</a>
           </div>
         </div>
       </section>
 
-      <section class="section services" id="services">
+      <section class="section">
         <div class="section-inner">
-          <p class="eyebrow" data-reveal>What you’ll get</p>
-          <h2 data-reveal>Tutoring that meets you where you are</h2>
+          <p class="eyebrow" data-reveal>What this is</p>
+          <h2 data-reveal>Focused prep. Clear next steps.</h2>
           <p class="section-lede" data-reveal>
-            Whether you’re building a foundation or polishing a high score, every
-            session is structured around your goals—not a one-size-fits-all
-            curriculum.
+            Whether you’re building a foundation or polishing your scores, every
+            lesson is personalized to fit your needs and reach your goals.
           </p>
-          <ul class="service-list">
-            <li data-reveal>
-              <h3>All levels welcome</h3>
+          <div class="overview-grid">
+            <article class="overview-item" data-reveal>
+              <h3>Private tutoring</h3>
               <p>
-                From first-time SAT prep to retake strategy, lessons adapt to
-                your starting point and timeline.
+                One-on-one SAT sessions for all levels—math, reading, or a plan
+                that covers both.
               </p>
-            </li>
-            <li data-reveal data-delay="1">
-              <h3>Math, reading, or both</h3>
+              <a class="link-more" href="tutoring.html">Explore tutoring</a>
+            </article>
+            <article class="overview-item" data-reveal data-delay="1">
+              <h3>Straightforward rates</h3>
               <p>
-                Focus on the section that needs the most work, or build a
-                balanced plan across the full exam.
+                $55/hour standard, a discounted first consultation, and a lower
+                rate for multi-week packages.
               </p>
-            </li>
-            <li data-reveal data-delay="2">
-              <h3>Personalized &amp; welcoming</h3>
+              <a class="link-more" href="tutoring.html#rates">View pricing</a>
+            </article>
+            <article class="overview-item" data-reveal data-delay="2">
+              <h3>Easy to start</h3>
               <p>
-                A supportive space with clear structure, practice that sticks,
-                and feedback you can actually use.
+                Reach out by email or text—we’ll map a timeline and schedule that
+                works for you.
               </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section rates" id="rates">
-        <div class="section-inner">
-          <p class="eyebrow" data-reveal>Investment</p>
-          <h2 data-reveal>Straightforward rates</h2>
-          <p class="section-lede" data-reveal>
-            Clear pricing with options that reward commitment—and make starting
-            easier.
-          </p>
-          <div class="rate-grid">
-            <article class="rate" data-reveal>
-              <p class="rate-label">Standard session</p>
-              <p class="rate-price"><span>$55</span> / hour</p>
-              <p class="rate-note">
-                One-on-one tutoring tailored to your score goals.
-              </p>
+              <a class="link-more" href="contact.html">Contact</a>
             </article>
-            <article class="rate rate-featured" data-reveal data-delay="1">
-              <p class="rate-label">First session</p>
-              <p class="rate-price"><span>$40</span> / hour</p>
-              <p class="rate-note">
-                A discounted intro session so we can map your strengths and plan
-                ahead.
-              </p>
-            </article>
-            <article class="rate" data-reveal data-delay="2">
-              <p class="rate-label">Multi-week package</p>
-              <p class="rate-price"><span>$50</span> / hour</p>
-              <p class="rate-note">
-                Commit to 6+ sessions and lock in a lower rate with a consistent
-                weekly rhythm.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section about" id="about">
-        <div class="section-inner about-layout">
-          <div class="about-copy">
-            <p class="eyebrow" data-reveal>About</p>
-            <h2 data-reveal>A tutor who’s been in your seat</h2>
-            <p data-reveal>
-              I’ve been tutoring the SAT since 10th grade, and I care deeply
-              about helping students feel confident—not just drilled. As a
-              current Princeton student, I bring recent exam insight and a
-              genuine passion for teaching.
-            </p>
-            <p data-reveal>
-              Accepted to Harvard, Cornell, Brown, Princeton, Duke, and
-              Vanderbilt—I know what strong scores open doors to, and how to
-              get there step by step.
-            </p>
-          </div>
-          <aside class="about-aside" data-reveal data-delay="1">
-            <p class="aside-label">Currently</p>
-            <p class="aside-value">Princeton University</p>
-            <p class="aside-label">Tutoring since</p>
-            <p class="aside-value">10th grade</p>
-            <p class="aside-label">Focus</p>
-            <p class="aside-value">SAT Math &amp; Reading</p>
-          </aside>
-        </div>
-      </section>
-
-      <section class="section contact" id="contact">
-        <div class="section-inner contact-inner">
-          <p class="eyebrow" data-reveal>Get in touch</p>
-          <h2 data-reveal>Ready to start?</h2>
-          <p class="section-lede" data-reveal>
-            Reach out by email or text—I’ll help you pick a schedule that fits.
-          </p>
-          <div class="contact-actions" data-reveal>
-            <a class="contact-link" href="mailto:hmfranklin07@gmail.com">
-              <span class="contact-kind">Email</span>
-              <span class="contact-value">hmfranklin07@gmail.com</span>
-            </a>
-            <a class="contact-link" href="tel:+16072818925">
-              <span class="contact-kind">Phone</span>
-              <span class="contact-value">(607) 281-8925</span>
-            </a>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Hannah Franklin · SAT Tutoring</p>
+      <p>© <span data-year></span> Hannah Franklin · SAT Tutoring</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="tutoring.html">Private Tutoring</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </footer>
 
     <script src="script.js"></script>

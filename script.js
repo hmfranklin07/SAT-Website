@@ -1,13 +1,15 @@
 (() => {
-  const year = document.getElementById("year");
-  if (year) year.textContent = String(new Date().getFullYear());
+  document.querySelectorAll("[data-year]").forEach((el) => {
+    el.textContent = String(new Date().getFullYear());
+  });
 
   const header = document.querySelector(".site-header");
   const toggle = document.querySelector(".nav-toggle");
   const mobileNav = document.getElementById("mobile-nav");
+  const isHome = Boolean(document.querySelector(".hero"));
 
   const onScroll = () => {
-    if (!header) return;
+    if (!header || !isHome) return;
     header.classList.toggle("is-scrolled", window.scrollY > 24);
   };
 
@@ -51,7 +53,7 @@
         }
       });
     },
-    { threshold: 0.15, rootMargin: "0px 0px -8% 0px" }
+    { threshold: 0.12, rootMargin: "0px 0px -6% 0px" }
   );
 
   reveals.forEach((el) => observer.observe(el));
