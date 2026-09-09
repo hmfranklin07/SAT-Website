@@ -1,0 +1,10 @@
+---
+description: Automatically commit and push website changes to GitHub
+alwaysApply: true
+---
+
+# Auto-push to GitHub
+
+After finishing a set of site changes in this project, commit and push to `origin` on `main` without waiting for the user to ask.
+
+Follow the repo's normal git commit protocol (status/diff/log, HEREDOC message, no force push, no config changes). Only skip the push if there is nothing to commit or the push fails—in that case, tell the user.
