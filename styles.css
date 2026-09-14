@@ -379,10 +379,11 @@ main {
 }
 
 .hero h1 {
-  font-size: clamp(1.35rem, 3.2vw, 1.85rem);
+  font-size: clamp(1.55rem, 3.8vw, 2.15rem);
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.92);
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 1rem;
+  max-width: 16ch;
 }
 
 .hero-lede {
