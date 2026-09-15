@@ -483,38 +483,30 @@ main {
   font-size: 1.1rem;
 }
 
-.about-page .page-hero {
-  padding: calc(var(--header-h) + 2.25rem) clamp(1.25rem, 5vw, 4rem) 0.35rem;
+.about-page .page-hero,
+.about-page .about-hero {
+  padding: calc(var(--header-h) + 2.25rem) clamp(1.25rem, 5vw, 4rem) 2.35rem;
   border-bottom: 0;
 }
 
 .about-page .page-hero h1 {
-  margin-bottom: 0.55rem;
+  margin-bottom: 1rem;
 }
 
-.about-page .page-hero .lede {
-  font-size: clamp(1.12rem, 2vw, 1.28rem);
-  line-height: 1.6;
-}
-
-.about-page .section {
-  padding-block: 2.35rem;
-}
-
-/* About page layout */
-.about-intro {
-  padding-top: 0.35rem;
-  padding-bottom: 2.25rem;
-}
-
-.about-intro-copy {
+.about-lead {
   max-width: 44rem;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.about-lead p {
+  margin: 0;
   color: var(--ink-soft);
   font-size: clamp(1.12rem, 2vw, 1.28rem);
   line-height: 1.65;
 }
 
-.about-intro-copy strong {
+.about-lead strong {
   color: var(--ink);
   font-weight: 700;
   box-decoration-break: clone;
@@ -523,6 +515,12 @@ main {
     rgba(15, 84, 173, 0.16) 62%
   );
 }
+
+.about-page .section {
+  padding-block: 2.35rem;
+}
+
+/* About page layout */
 
 .about-offer {
   background: rgba(255, 255, 255, 0.42);
