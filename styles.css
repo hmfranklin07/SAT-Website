@@ -376,7 +376,7 @@ main {
 
 .brand-mark {
   font-family: var(--font-display);
-  font-size: clamp(2.4rem, 7vw, 4.5rem);
+  font-size: clamp(2.1rem, 6.2vw, 4.25rem);
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.03em;
