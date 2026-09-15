@@ -350,6 +350,7 @@ main {
   object-position: right center;
   transform: none;
   animation: none;
+  image-rendering: auto;
 }
 
 .hero-veil {
