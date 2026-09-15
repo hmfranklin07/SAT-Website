@@ -402,18 +402,37 @@ main {
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.hero .btn {
+  padding: 0.9rem 1.45rem;
+  min-height: 3rem;
+  letter-spacing: 0.01em;
+}
+
+.hero .btn-primary {
+  box-shadow: 0 10px 24px rgba(15, 84, 173, 0.22);
+}
+
+.hero .btn-primary:hover,
+.hero .btn-primary:focus-visible {
+  box-shadow: 0 12px 28px rgba(15, 84, 173, 0.28);
 }
 
 .hero .btn-ghost {
   color: var(--ink);
-  border-color: rgba(15, 42, 74, 0.28);
+  background: rgba(255, 255, 255, 0.55);
+  border-color: rgba(15, 42, 74, 0.16);
+  backdrop-filter: blur(8px);
 }
 
 .hero .btn-ghost:hover,
 .hero .btn-ghost:focus-visible {
-  border-color: var(--blue-deep);
-  background: rgba(15, 84, 173, 0.06);
+  color: var(--blue-deep);
+  border-color: var(--blue);
+  background: rgba(255, 255, 255, 0.82);
 }
 
 @media (max-width: 720px) {
