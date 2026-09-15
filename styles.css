@@ -473,8 +473,24 @@ main {
 
 .page-hero h1 {
   font-size: clamp(2.4rem, 6vw, 3.75rem);
-  max-width: 14ch;
+  max-width: 16ch;
   margin-bottom: 0.85rem;
+}
+
+.about-prose .about-block {
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.about-prose .about-block h2 {
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  max-width: 20ch;
+  margin-bottom: 1.15rem;
+}
+
+.about-prose .cta-strip {
+  margin-top: 3rem;
 }
 
 .page-hero .lede {
