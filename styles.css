@@ -484,7 +484,7 @@ main {
 }
 
 .about-page .page-hero {
-  padding: calc(var(--header-h) + 2.25rem) clamp(1.25rem, 5vw, 4rem) 1.25rem;
+  padding: calc(var(--header-h) + 2.25rem) clamp(1.25rem, 5vw, 4rem) 1.65rem;
 }
 
 .about-page .page-hero h1 {
@@ -497,13 +497,13 @@ main {
 }
 
 .about-page .section {
-  padding-block: 1.35rem;
+  padding-block: 1.85rem;
 }
 
 /* About page layout */
 .about-intro {
-  padding-top: 1.15rem;
-  padding-bottom: 1.25rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.75rem;
 }
 
 .about-intro-copy {
@@ -526,7 +526,7 @@ main {
 .about-offer {
   background: rgba(255, 255, 255, 0.42);
   border-block: 1px solid var(--line);
-  padding-block: 1.5rem;
+  padding-block: 2rem;
 }
 
 .about-split {
@@ -590,7 +590,7 @@ main {
 }
 
 .about-why {
-  padding-block: 1.6rem;
+  padding-block: 2.1rem;
   margin-inline: clamp(0.5rem, 2vw, 1.25rem);
 }
 
@@ -637,7 +637,7 @@ main {
 }
 
 .about-page-cta {
-  padding-block: 1.25rem;
+  padding-block: 1.75rem;
 }
 
 .about-page-cta .cta-strip {
