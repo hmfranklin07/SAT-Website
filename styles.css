@@ -328,6 +328,8 @@ main {
 /* —— Home hero —— */
 .hero {
   position: relative;
+  height: 100svh;
+  height: 100dvh;
   min-height: 100svh;
   min-height: 100dvh;
   display: flex;
@@ -347,11 +349,12 @@ main {
 .hero-media img {
   width: 100%;
   height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   object-fit: cover;
-  object-position: 92% center;
+  object-position: right center;
   transform: none;
   animation: none;
-  image-rendering: auto;
 }
 
 .hero-veil {
@@ -359,9 +362,9 @@ main {
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(243, 249, 254, 0.58) 0%,
-    rgba(243, 249, 254, 0.3) 32%,
-    transparent 56%
+    rgba(243, 249, 254, 0.55) 0%,
+    rgba(243, 249, 254, 0.28) 30%,
+    transparent 55%
   );
   pointer-events: none;
 }
@@ -369,7 +372,7 @@ main {
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: min(34rem, 48vw);
+  max-width: min(34rem, 46vw);
 }
 
 .brand-mark {
@@ -416,14 +419,12 @@ main {
 
 @media (max-width: 720px) {
   .hero {
-    min-height: 100svh;
-    min-height: 100dvh;
     align-items: flex-end;
     padding-bottom: 2.5rem;
   }
 
   .hero-media img {
-    object-position: 85% 40%;
+    object-position: right 40%;
   }
 
   .hero-veil {
