@@ -352,7 +352,7 @@ main {
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
-  object-position: right 42%;
+  object-position: right 8%;
   transform: none;
   animation: none;
 }
@@ -424,7 +424,7 @@ main {
   }
 
   .hero-media img {
-    object-position: right 35%;
+    object-position: right 5%;
   }
 
   .hero-veil {
