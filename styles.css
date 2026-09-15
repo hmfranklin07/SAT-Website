@@ -352,7 +352,7 @@ main {
   height: 100%;
   object-fit: cover;
   object-position: right center;
-  transform: translateY(1.25rem);
+  transform: translateY(2rem);
   animation: none;
 }
 
@@ -424,7 +424,7 @@ main {
 
   .hero-media img {
     object-position: right center;
-    transform: translateY(1.5rem);
+    transform: translateY(2.25rem);
   }
 
   .hero-veil {
