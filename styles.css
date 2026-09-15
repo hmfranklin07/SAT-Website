@@ -388,7 +388,7 @@ main {
   font-size: clamp(1.55rem, 3.8vw, 2.15rem);
   font-weight: 500;
   color: var(--blue-deep);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   max-width: 16ch;
 }
 
